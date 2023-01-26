@@ -1,0 +1,42 @@
+.pet-container-form{
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+.pet-container-form form{
+    width: 400px;
+    margin: 15px auto 0;
+    display: block;
+    font-size: small;
+    color: rgb(70, 81, 77);
+}
+
+.pet-container-form form label{
+    font-size: medium;
+    color: #1d1e1d;
+}
+
+.pet-container-form form input[type=submit]{
+    width: 40%;
+    height: 30px;
+    margin: 5px auto;
+    display: block;
+    border: 1px solid #313e31;
+    background-color: #206153;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.pet-container-form form input[type=submit]:hover{
+    background-color: #349f88;
+}
+
+.result-pet-names{
+    width: 600px;
+    margin: 20px auto 0;
+    display: block;
+    color: rgb(72, 72, 72);
+}
